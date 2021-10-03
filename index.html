@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="content">
+        <h1>Sign in</h1>
+        <form action="loginValidation.php" method="POST">
+            <label for="email">Email </label>
+            <br>
+            <input type="email" name="email" placeholder="Your email " required>
+            <br>
+            <label for="pass">Password </label>
+            <br>
+            <input type="password" name="password" placeholder="Your password " required>
+            <br>
+            <input type="submit" class="btn" value="Sign in">
+        </form>
+        <a href="registerForm.php" class="btn">Register</a>
+</body>
+
+</html>

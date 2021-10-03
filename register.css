@@ -1,0 +1,82 @@
+
+        body {
+            font-family: "Mitr", sans-serif;
+            background-color: #0E0B16;
+        }
+
+    .container {
+      width: 50%;
+      margin: 0 auto;
+      background-color: #e7dfdd;
+      border-radius: 30px;
+      border: transparent;
+      font-family: "Mitr", sans-serif;
+      margin-top: 100px;
+      padding-top: 5px;
+      padding-bottom: 30px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .form-group {
+      margin: 10px 200px 0px 200px;
+      padding: 3px 150px 6px 1px;
+    }
+
+    input[type="text"] {
+      border: 1px solid rgb(199, 198, 198);
+      border-radius: 10px;
+      padding: 3px 200px 6px 3px;
+    }
+    input[type="email"] {
+      border: 1px solid rgb(199, 198, 198);
+      border-radius: 10px;
+      padding: 3px 200px 6px 3px;
+    }
+    input[type="password"] {
+      border: 1px solid rgb(199, 198, 198);
+      border-radius: 10px;
+      padding: 3px 200px 6px 3px;
+    }
+
+    button[type="submit"] {
+      border-collapse: collapse;
+      border: transparent;
+      border-radius: 15px;
+      font-family: "Mitr", sans-serif;
+      color: white;
+      background-color: rgb(3, 19, 61);
+      margin: 15px 0px 5px 310px;
+      padding: 5px 50px 5px 50px;
+      transition: 0.5s;
+    }
+
+    button[type="submit"]:hover {
+      color: rgb(255, 255, 255);
+      background-color: rgb(140, 169, 248);
+    }
+
+    .returnlogin {
+      text-decoration: none;
+      font-size: 13px;
+      border-collapse: collapse;
+      border: transparent;
+      border-radius: 15px;
+      color: white;
+      margin: 15px 0px 0px 220px;
+      padding: 5px 50px 5px 50px;
+      background-color: rgb(3, 19, 61);
+      transition: 0.5s;
+    }
+
+    .form-control {
+      font-family: "Mitr", sans-serif;
+    }
+
+    .returnlogin:hover {
+      background-color: rgb(140, 169, 248);
+      color: black;
+    }
+
